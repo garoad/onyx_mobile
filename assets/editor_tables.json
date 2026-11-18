@@ -1,0 +1,207 @@
+{
+  "models": {
+    "DYN": [
+      "GATE",
+      "BOOST+GATE",
+      "COMP+GATE",
+      "AI GATE MS",
+      "COMP"
+    ],
+    "DRIVE": [
+      "TS-808",
+      "KLON",
+      "OCD",
+      "RAT",
+      "BIG MUFF",
+      "FUZZ FACE"
+    ],
+    "EQ": [
+      "5-BAND",
+      "LOW/HIGH CUT",
+      "PARAMETRIC-3"
+    ],
+    "MOD": [
+      "CHORUS",
+      "PHASER",
+      "FLANGER",
+      "TREMOLO",
+      "VIBRATO",
+      "WAH",
+      "AUTO WAH"
+    ],
+    "DLY": [
+      "ANALOG",
+      "DUCKING",
+      "TAPE",
+      "DUAL",
+      "LO-FI",
+      "DIGITAL",
+      "PING PONG",
+      "REVERSE",
+      "SLAPBACK"
+    ],
+    "REV": [
+      "ROOM",
+      "HALL",
+      "SWELL",
+      "SPRING",
+      "SHIMMER",
+      "CLOUD",
+      "PLATE"
+    ]
+  },
+  "params": {
+    "DYN": [
+      [
+        "THRESH",
+        "RELEASE",
+        "ATTACK",
+        "LEVEL"
+      ],
+      [
+        "THRESH",
+        "RELEASE",
+        "---",
+        "BOOST"
+      ],
+      [
+        "THRESH",
+        "RATIO",
+        "ATTACK",
+        "LEVEL"
+      ],
+      [
+        "THRESH",
+        "RELEASE",
+        "ATTACK",
+        "LEVEL"
+      ],
+      [
+        "THRESH",
+        "RATIO",
+        "ATTACK",
+        "LEVEL"
+      ]
+    ],
+    "DRIVE": [
+      "DRIVE",
+      "TONE",
+      "LEVEL"
+    ],
+    "AMP": [
+      "GAIN",
+      "BASS",
+      "MID",
+      "TREBLE",
+      "PRES",
+      "MASTER"
+    ],
+    "CAB": [
+      "LEVEL",
+      "LOWCUT",
+      "HICUT"
+    ],
+    "EQ": [
+      [
+        "100",
+        "400",
+        "1k",
+        "3k",
+        "8k"
+      ],
+      [
+        "LOWCUT",
+        "HICUT",
+        "LEVEL"
+      ],
+      [
+        "LOW",
+        "MID",
+        "FREQ",
+        "HIGH"
+      ]
+    ],
+    "MOD": [
+      [
+        "RATE",
+        "DEPTH",
+        "MIX",
+        "---"
+      ],
+      [
+        "RATE",
+        "DEPTH",
+        "MIX",
+        "FDBK"
+      ],
+      [
+        "RATE",
+        "DEPTH",
+        "MIX",
+        "FDBK"
+      ],
+      [
+        "RATE",
+        "DEPTH",
+        "---",
+        "---"
+      ],
+      [
+        "RATE",
+        "DEPTH",
+        "---",
+        "---"
+      ],
+      [
+        "RATE",
+        "RANGE",
+        "MIX",
+        "RESO"
+      ],
+      [
+        "FALL",
+        "SENS",
+        "MIX",
+        "RESO"
+      ]
+    ],
+    "DLY": [
+      [
+        "TIME",
+        "FDBK",
+        "MIX"
+      ],
+      [
+        "MOD",
+        "RELEASE",
+        "GRIT",
+        "RATIO",
+        "GRIT",
+        "TONE",
+        "TONE",
+        "TONE",
+        "TONE"
+      ]
+    ],
+    "REV": [
+      "DECAY",
+      "LOWCUT",
+      "TONE",
+      "MIX"
+    ]
+  },
+  "counts": {
+    "DYN": 4,
+    "DRIVE": 3,
+    "AMP": 6,
+    "CAB": 3,
+    "MOD": 4,
+    "DLY": 4,
+    "REV": 4,
+    "EQ": [
+      5,
+      3,
+      4
+    ]
+  }
+}

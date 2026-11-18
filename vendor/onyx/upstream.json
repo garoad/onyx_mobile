@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/28spawn/Pocket-Onyx",
+  "commit": "8ebf3090d8df82a3f5e8806aec964c1e1e9079d1",
+  "path": "custom-fw/web/Onyx_Web_Editor.html",
+  "sha256": "264f39e8f40834f437ab8bbd41204a2a000d563674f373f08579a6cd982538e3",
+  "retrieved": "2026-11-18",
+  "license": "GPL-3.0-only",
+  "copyright": "Copyright (C) 2026 The Onyx Authors (@28spawn)"
+}

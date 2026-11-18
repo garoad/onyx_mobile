@@ -1,0 +1,7 @@
+# Use consistent text endings while preserving upstream reference bytes.
+* text=auto eol=lf
+*.bat text eol=crlf
+vendor/onyx/** -text whitespace=cr-at-eol
+*.png -text
+*.jar -text
+*.bin -text

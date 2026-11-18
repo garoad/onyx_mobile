@@ -1,0 +1,74 @@
+# Flutter and Dart generated files. Keep pubspec.lock and .metadata tracked.
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+**/build/
+/coverage/
+.widget_preview/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Release output, archives, logs and symbols.
+/artifacts/*
+!/artifacts/.gitkeep
+*.apk
+*.aab
+*.ipa
+*.app/
+*.xcarchive/
+*.dSYM/
+app.*.symbols
+app.*.map.json
+*.log
+
+# Local configuration and signing material.
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+**/key.properties
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.p8
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+
+# IDE user state. Shared VS Code launch/tasks/extensions files may be tracked.
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/*.local.json
+*.local.code-workspace
+
+# Native tooling caches; shared Swift Package Manager lock files stay tracked.
+.gradle/
+.kotlin/
+.cxx/
+.swiftpm/
+.build/
+.buildlog/
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# OS, editor and Python temporary files.
+.DS_Store
+*.class
+__pycache__/
+*.py[cod]
+*.swp
+*.swo
+*~
+.atom/
+.history/
+.svn/
+migrate_working_dir/
